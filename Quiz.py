@@ -5,5 +5,5 @@ age = 18
 if age>=18:
   st.write('Yu are eligible for license....')
 else:
-  st.write('You are not eligible)
+  st.write('You are not eligible')
 
