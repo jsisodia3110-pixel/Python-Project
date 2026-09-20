@@ -4,6 +4,7 @@ st.write('hello, I am Jitendra. Welcome to my quiz zone. Hope you like the game.
 age = st.number_input('Enter your age')
 if age>=18:
   st.write('Yu are eligible for license....')
+  st.balloons()
 else:
   st.write('You are not eligible')
 
