@@ -14,35 +14,38 @@ Ans4 = st.text_input("Enter your choice for Q4")
 
 score = 0
 
-if Ans1 == "c" or Ans1 == "C":
+if not Ans1 or not Ans2 or not Ans3 or not Ans4:
+    st.warning("Please answer all questions before submitting!")
+else:
+  if Ans1 == "c" or Ans1 == "C":
   st.snow()
   score+=5
-else:
-  score-=2
-  st.write("incorrect answer")
-  st.balloons()
-if Ans2 == "d" or Ans2 == "D":
-  st.snow()
-  score+=5
-else:
-  score-=2
-  st.write("incorrect answer")
-  st.balloons()
-if Ans3 == "b" or Ans3 == "B":
-  st.snow()
-  score+=5
-else:
-  score-=2
-  st.write("incorrect answer")
-  st.balloons()
-if Ans4 == "d" or Ans4 == "D":
-  st.snow()
-  score+=5
-else:
-  score-=2
-  st.write("incorrect answer")
-  st.balloons()
-
-st.write("Total score is", score)
+  else:
+    score-=2
+    st.write("incorrect answer")
+    st.balloons()
+  if Ans2 == "d" or Ans2 == "D":
+    st.snow()
+    score+=5
+  else:
+    score-=2
+    st.write("incorrect answer")
+    st.balloons()
+  if Ans3 == "b" or Ans3 == "B":
+    st.snow()
+    score+=5
+  else:
+    score-=2
+    st.write("incorrect answer")
+    st.balloons()
+  if Ans4 == "d" or Ans4 == "D":
+    st.snow()
+    score+=5
+  else:
+    score-=2
+    st.write("incorrect answer")
+    st.balloons()
+  
+  st.write("Total score is", score)
     
 
