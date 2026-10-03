@@ -15,29 +15,29 @@ Ans4 = st.text_input("Enter your choice for Q4")
 score = 0
 
 if Ans1 == "c" or Ans1 == "C":
-  score+=5
   st.snow()
+  score+=5
 else:
   score-=2
   st.write("incorrect answer")
   st.balloons()
 if Ans2 == "d" or Ans2 == "D":
-  score+=5
   st.snow()
+  score+=5
 else:
   score-=2
   st.write("incorrect answer")
   st.balloons()
 if Ans3 == "b" or Ans3 == "B":
-  score+=5
   st.snow()
+  score+=5
 else:
   score-=2
   st.write("incorrect answer")
   st.balloons()
 if Ans4 == "d" or Ans4 == "D":
-  score+=5
   st.snow()
+  score+=5
 else:
   score-=2
   st.write("incorrect answer")
