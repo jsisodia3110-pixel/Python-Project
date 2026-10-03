@@ -2,7 +2,7 @@ import streamlit as st
 # st.write('hello')
 # st.balloons()
 
-st.success()
+st.button()
 
 # st.write("Welcome to Quiz2")
 # st.write("Q1. Who is the President of India?/n/n Options: A. Rahul Gandhi, B. Sonia Gandhi, C. Dropadi Murmu, D. Arvind Kejriwal")
@@ -49,5 +49,7 @@ st.success()
 #       st.balloons()
   
 #   st.write("Total score is", score)
+# if score>=10:
+  
     
 
