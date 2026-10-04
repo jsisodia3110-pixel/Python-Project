@@ -1,6 +1,8 @@
 import streamlit as st
 st.write("**********************")
+st.write("**********************")
 st.write("Welcome to Quiz2")
+st.write("**********************")
 st.write("**********************")
 st.write("Q1. Who is the President of India?/n/n Options: A. Rahul Gandhi, B. Sonia Gandhi, C. Dropadi Murmu, D. Arvind Kejriwal")
 Ans1 = st.text_input("Enter your choice for Q1")
